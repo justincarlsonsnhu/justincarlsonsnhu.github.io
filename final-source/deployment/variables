@@ -1,0 +1,42 @@
+#######################################################################
+###   General Parameters for deployment - You MUST FILL THESE IN    ###
+#######################################################################
+
+# The name of the Azure subscription where all assets will be deployed
+SUBSCRIPTION_NAME="Justin-Carlson"
+
+# The region in Azure to deploy to
+AZURE_LOCATION="EastUS"
+
+# Required tags for resource group creation - specify the appropriate values in these 4 parameters
+CREATED_ON='CreatedOn=02/14/2022'
+CREATOR_EMAIL='CreatorEmail=justin.carlson@snhu.edu'
+OWNER='Owner=JustinCarlson'
+OWNER_EMAIL='OwnerEmail=justin.carlson@snhu.edu'
+
+# The name of the Infrastructure resource group to create
+MAIN_RESOURCE_GROUP_NAME="jdc-testing-rg"
+
+# The name of the Azure Container Registry to create (all lowercase, only letters, 16 characters or less)
+CONTAINER_REGISTRY_NAME="jdcregtest"
+
+# The name of the docker image to build/push to the container registry
+NODE_DOCKER_IMAGE_NAME="nodejs-499-test"
+
+# The version to apply to your image
+NODE_DOCKER_IMAGE_TAG="v1"
+
+# The name of the ACI container to be created
+ACI_CONTAINER_NAME="acinode499"
+
+# The DNS label for the ACI container 
+ACI_DNS_NAME_LABEL="jdc-499-node"
+
+# The name of the CosmosDB account to be created
+COSMOSDB_ACCOUNT_NAME="jdctestcosmosdbacct"
+
+# The name of the CosmosDB database to be created
+COSMOSDB_DATABASE_NAME="jdcmongodatabase"
+
+# The port that CosmosDB is running under (default 10255)
+COSMOSDB_PORT="10255"
