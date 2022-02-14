@@ -1,5 +1,12 @@
 ## Welcome to Justin's GitHub Pages!
 
+Links:
+- [Code Review](https://www.youtube.com/watch?v=vIPiO8ax7vM)
+- [Original Source Code](https://github.com/justincarlsonsnhu/justincarlsonsnhu.github.io/tree/main/original-source)
+- [Final/Updated Source Code](https://github.com/justincarlsonsnhu/justincarlsonsnhu.github.io/tree/main/final-source)
+- [Live Site](http://jdc-499-node.eastus.azurecontainer.io:3000/home.html)
+
+
 You can use the [editor on GitHub](https://github.com/justincarlsonsnhu/justincarlsonsnhu.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
