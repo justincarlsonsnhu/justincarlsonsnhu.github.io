@@ -7,6 +7,19 @@ Hello, and welcome to my ePortfolio!   This page is intended to give you an unde
 # Professional Self-Assessment
 TODO: JUSTIN: FINISH THIS SECTION!
 
+~~Include the following in your professional self-assessment:~~
+
+~~A. Discuss how completing your coursework throughout the program and developing the ePortfolio has helped showcased your strengths and
+shape your professional goals and values and prepared you to either enter or become more employable in the computer science field. Use
+specific examples from your program and include examples outside of the artifacts included in your ePortfolio. Please address following topics:
+collaborating in a team environment, communicating to stakeholders, data structures and algorithms, software engineering and database,
+and security. Note: This should function as an overall introduction to your skills and you will become more specific relative to the included
+artifacts in the next section.~~
+
+~~B. Summarize/introduce how your artifacts fit together and inform the portfolio as a whole; this will help demonstrate the full range of your
+computer science talents and abilities? This section should introduce your audience to the technical artifacts that will follow the professional
+self-assessment.~~
+
 
 # Code Review
 Prior to doing any work on my desired enhancements, I did a complete code review of the code that I was starting with.  I took this starter code from a previous college course I took.   This [Code Review](https://www.youtube.com/watch?v=vIPiO8ax7vM) is about 40 minutes long, and shows a full walkthrough of the starting code base, as well as my comments on what areas I plan to improve on in order to facilitate my enhancements.
@@ -44,6 +57,25 @@ This feature was adding some new functionality to the application.  In this one,
 # Narrative(s)
 TODO: JUSTIN: FINISH THIS SECTION!
 
+~~For each artifact in your ePortfolio, you will provide a narrative to accompany the artifact itself. The narrative that you write for each
+artifact should explain why you included the artifact in your ePortfolio and reflect on the process you used to create the artifact. The narrative(s)
+should focus less on the actual creation of each artifact and more on the learning that happened through the creation of the artifact. For each artifact,
+you should address the following:~~
+
+~~A. Briefly describe the artifact. What is it? When was it created?~~
+
+~~B. Justify the inclusion of the artifact(s) in your ePortfolio. Why did you select this item? What specific components of the artifact showcases your
+skills and abilities in software development?~~
+
+~~C. Reflect on the process of enhancing and/or modifying the artifact. What did you learn as you were creating it and improving it? What
+challenges did you face? How did you incorporate feedback as you made changes to the artifact? How was the artifact improved?~~
+
 
 # Conclusion
-TODO: JUSTIN: FINISH THIS SECTION!
+This enhancement truly shows the breadth and depth of skill I have in the software engineering field.   Hopefully you found this showcase interesting!  Feel free to reach out to me at [justin.carlson@snhu.edu](mailto:justin.carlson@snhu.edu)
+
+P.S.: If you're interested in seeing some other live projects I've put together, feel free to look at these examples:
+
+[Vivid Image Art](https://www.vividimageart.com/#/)
+
+[Talk Cloudly To Me Blog](https://talkcloudlytome.com/)
