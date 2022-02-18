@@ -5,27 +5,24 @@
 Hello, and welcome to my ePortfolio!   This page is intended to give you an understanding of what I am capable of in the realm of software development.   You will see some "original" code, as well as updated code containing three enhancments: Databases, Algorithms, General Engineering.   This should give you a good idea of my skill-set and what value I could bring to your business.
 
 # Professional Self-Assessment
-TODO: JUSTIN: FINISH THIS SECTION!
+In this portfolio, you will see the overall vision and gain an understanding of what I am capable of.  You'll understand how I am able to implement both technical skills, as well as ancillary skills, such as understanding business use cases, working in a team, eliciting and integrating feedback, and much more!
 
-~~Include the following in your professional self-assessment:~~
+By building out the NodeJS scaffolding and exposing business APIs through my “Software Engineering/Design” artifact, I’ve shown that I have the ability to build a collaborative environment to support decision making.   I built a clean scaffolding for the application and structured the folders/files in an easy to understand way.    Choosing to use industry standard libraries such as NPM and Express show that I understand what is important in the industry and why.    Additionally, creating deployment scripts to deploy my entire application from scratch ensures a repeatable, automated process that anyone can follow to deploy.
 
-~~A. Discuss how completing your coursework throughout the program and developing the ePortfolio has helped showcased your strengths and
-shape your professional goals and values and prepared you to either enter or become more employable in the computer science field. Use
-specific examples from your program and include examples outside of the artifacts included in your ePortfolio. Please address following topics:
-collaborating in a team environment, communicating to stakeholders, data structures and algorithms, software engineering and database,
-and security. Note: This should function as an overall introduction to your skills and you will become more specific relative to the included
-artifacts in the next section.~~
+Looking at the Databases artifact, we can see my understanding of data structures.  The data models are cleanly implemented in an ORM pattern, using an industry-standard library (Mongoose) to facilitate the mapping.   By building out test scripts to insert data into my database, it allows us to always have a consistent starting point whenever we deploy the application, again lending to consistency which is needed for things like unit tests and integration tests.   Additionally I’ve ensured that my credentials to connect to the database are securely stored as environment variables in my deployed application, and I’ve made sure to encrypt my connection using TLS - these decisions showcase how I am able to put security at the forefront when building an application.
 
-~~B. Summarize/introduce how your artifacts fit together and inform the portfolio as a whole; this will help demonstrate the full range of your
-computer science talents and abilities? This section should introduce your audience to the technical artifacts that will follow the professional
-self-assessment.~~
+And lastly if we look at the algorithm artifact, that shows a great example of how I can take business needs and transform them into business logic in the form of code.   This shows a skillset beyond just the ability to write a program, but to truly understand a use case and write code that meets that case.  
+
+When you look at all of these enhancements and skills from a high-level "big picture" view, you can see a talented software engineer that is able to take ideas and bring them to reality.   Every application you build is going to require a data storage mechanism and business logic algorithms, and we can clearly see examples here that show I am able to implement them, and implement them well.
+
+In the "Enhanced Artifacts" section below, you will see three separate features that I added or improved to my starting project.   These together showcase a wide array of technical and engineering skills.   The three main enhancements can be grouped into three categories:   General Enginering/Design/Refactoring, Implementation of a Database system, and the creation of an algorithm implementing business logic.   All of these enhancements build upon each other.  For example, in the General Engineering section, I create a NodeJS and expose several APIs, which then in turn call the database, which is also referenced when loading data for my algorithm.  So this portfolio not only showcases a specific technology skillset, but instead shows how I am able to craft together multiple different disciplines to arrive at the end goal of delivering an awesome project!
 
 
 # Code Review
 Prior to doing any work on my desired enhancements, I did a complete code review of the code that I was starting with.  I took this starter code from a previous college course I took.   This [Code Review](https://www.youtube.com/watch?v=vIPiO8ax7vM) is about 40 minutes long, and shows a full walkthrough of the starting code base, as well as my comments on what areas I plan to improve on in order to facilitate my enhancements.
 
 
-# Enhanced Artifact(s)
+# Enhanced Artifacts
 
 To start off this section, I'll give you some links so you can see the before/after code, as well as the live site in action!
 
@@ -37,19 +34,52 @@ The three main enhancements I completed are as follows:
 
 ### Enhancement 1 - Software Engineering/Design
 
-This feature involved moving the application from a static HTML site run locally, to a NodeJS application hosted on Azure Containers and available on the internet.  This involved creating a NodeJS application, building a Linux Docker image, and building a deployment process to get it all into Azure.  While a screenshot doesn't really do this feature justice (as it's mostly backend code), you can see from the URL here that I'm hitting the website on a public, not local, URL:
+This feature involved moving the application from a static HTML site run locally, to a NodeJS application hosted on Azure Containers and available on the internet.  This involved creating a NodeJS application, building a Linux Docker image, and building a deployment process to get it all into Azure.  
+
+This enhancement involved implementing the following tasks:
+- Create a NodeJS application that will serve up the static HTML/CSS/JS/IMG files
+- Create an API in the NodeJS application, with two service endpoints
+   - LoadAvailableProducts - Replaces hard-coded JSON in the .js file on the front-end
+   - PurchaseItems - Handles the user “checking out” with their cart
+- Update the UI of the web side
+   - Change the product page to call the API to load available products, instead of hard-coding
+   - Change the shopping cart page to allow a user to check out their items
+- Deploy
+- Host it in a Linux Docker container and deploy to a cloud platform (Azure) for global accessibility
+
+
+While a screenshot doesn't really do this feature justice (as it's mostly backend code), you can see from the URL here that I'm hitting the website on a public, not local, URL:
 
 ![enhancement 1](https://i.imgur.com/4nNC9VX.png "Enhancement 1")
 
 ### Enhancement 2 - Database
 
-This one involved modifying the application to store product and transaction details in a database, instead of having it hard-coded in the application.   A NoSQL Hosted database was used (Azure CosmosDB) to implement this, and additional deployment scripts were also created to deploy all test and product data.   The screenshot below shows that the client-side page is calling a backend API to load the products, as well as a quick display of the data in CosmosDB from the Azure portal:
+This one involved modifying the application to store product and transaction details in a database, instead of having it hard-coded in the application.   A NoSQL Hosted database was used (Azure CosmosDB) to implement this, and additional deployment scripts were also created to deploy all test and product data.   
+
+This enhancement involved implementing the following tasks:
+- Implement an Azure CosmosDB data structure
+- Create scripts to import all product data into the data structure (from the hard-coded data)
+- Create scripts to import (test data) simulating previous transactions/purchases (i.e., user X bought these products….)
+- Update the NodeJS API endpoint that loads product details to query the CosmosDB instance instead of the hard-coded code in the API endpoint
+- Ensure security (TLS and Credentials) are implemented for CosmosDB
+
+
+The screenshot below shows that the client-side page is calling a backend API to load the products, as well as a quick display of the data in CosmosDB from the Azure portal:
 
 ![enhancement 2](https://i.imgur.com/esXnIkz.png "Enhancement 2")
 
 ### Enhancement 3 - Algorithms
 
-This feature was adding some new functionality to the application.  In this one, we implemented an algorithm that would query all transaction data, and for a given product, show the user what other products were commonly purchased with it.   This is very similar to what you may be familiar with on Amazon or other eCommerce sites, usually called "People who bought this also bought...".   The screenshot below shows the output a user would see for this feature:
+This feature was adding some new functionality to the application.  In this one, we implemented an algorithm that would query all transaction data, and for a given product, show the user what other products were commonly purchased with it.   This is very similar to what you may be familiar with on Amazon or other eCommerce sites, usually called "People who bought this also bought...".   
+
+This enhancement involved implementing the following tasks:
+
+- Build out actual data structures (NodeJS classes) for our domain object types instead of hard-coded JSON structures
+- Build an algorithm that loads data from the CosmosDB to get the transactional test data out of there, and build out a “people who purchased product X also purchased products Y and Z” type algorithm (similar to Amazon shopping)
+- Create an API endpoint that can be called for a given product to load the details from that algorithm, for that product
+- Update the Web UI to show the data found from said algorithm
+
+The screenshot below shows the output a user would see for this feature:
 
 ![enhancement 3](https://i.imgur.com/bGiHmEo.png "Enhancement 3")
 
