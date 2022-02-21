@@ -2,7 +2,7 @@
 
 
 # Introduction/Summary
-Hello, and welcome to my ePortfolio!   This page is intended to give you an understanding of what I am capable of in the realm of software development.   You will see some "original" code, as well as updated code containing three enhancments: Databases, Algorithms, General Engineering.   This should give you a good idea of my skill-set and what value I could bring to your business.
+Hello, and welcome to my ePortfolio!   This page is intended to give you an understanding of what I am capable of in the realm of software development.   You will see some "original" code, as well as updated code containing three enhancments: Databases, Algorithms, and General Engineering.   This should give you a good idea of my skillset and what value I could bring to your business.
 
 # Professional Self-Assessment
 In this portfolio, you will see the overall vision and gain an understanding of what I am capable of.  You'll understand how I am able to implement both technical skills, as well as ancillary skills, such as understanding business use cases, working in a team, eliciting and integrating feedback, and much more!
@@ -154,7 +154,7 @@ The artifact in question is the creation of an algorithm that will load data out
 
 _Justification_
 
-I selected this item/enhancement as I felt it was a good way to show that I understand business logic, in addition to just standard programming skills.   Anyone can learn how to do the technical wprl, but to be able to understand a business problem and come up with logic to implement it is what separates an average programmer from an outstanding engineer!
+I selected this item/enhancement as I felt it was a good way to show that I understand business logic, in addition to just standard programming skills.   Anyone can learn how to do the technical work, but to be able to understand a business problem and come up with logic to implement it is what separates an average programmer from an outstanding engineer!
 
 By building out this algorithm/logic into my application, I shown value towards “**CS-499-01** (_Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science_).  The application has a clean code base and implementing enhancements (such as this algorithm) are fairly easy to do.  I’ve also worked towards "**CS-499-03** (_Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices_)" too.  Building out the algorithm shows that I understand the problem space and am able to build out logic and translate business requirements to implemented code.  And lastly, aptitude towards "**CS-499-04** (_Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals_)" was reached by showing the best practices that I implemented when coding the algorithm in question. 
 
