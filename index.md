@@ -2,7 +2,7 @@
 
 
 # Introduction/Summary
-Hello, and welcome to my ePortfolio!   This page is intended to give you an understanding of what I am capable of in the realm of software development.   You will see some "original" code, as well as updated code containing three enhancments: Databases, Algorithms, and General Engineering.   This should give you a good idea of my skillset and what value I could bring to your business.
+Hello, and welcome to my ePortfolio!   This page is intended to give you an understanding of what I am capable of in the realm of software development.   You will see some "original" code, as well as updated code containing three enhancements: Databases, Algorithms, and General Engineering.   This should give you a good idea of my skillset and what value I could bring to your business.
 
 # Professional Self-Assessment
 In this portfolio, you will see the overall vision and gain an understanding of what I am capable of.  You'll understand how I am able to implement both technical skills, as well as ancillary skills, such as understanding business use cases, working in a team, eliciting and integrating feedback, and much more!
@@ -15,7 +15,7 @@ And lastly if we look at the algorithm artifact, that shows a great example of h
 
 When you look at all of these enhancements and skills from a high-level "big picture" view, you can see a talented software engineer that is able to take ideas and bring them to reality.   Every application you build is going to require a data storage mechanism and business logic algorithms, and we can clearly see examples here that show I am able to implement them, and implement them well.
 
-In the "Enhanced Artifacts" section below, you will see three separate features that I added or improved to my starting project.   These together showcase a wide array of technical and engineering skills.   The three main enhancements can be grouped into three categories:   General Enginering/Design/Refactoring, Implementation of a Database system, and the creation of an algorithm implementing business logic.   All of these enhancements build upon each other.  For example, in the General Engineering section, I create a NodeJS and expose several APIs, which then in turn call the database, which is also referenced when loading data for my algorithm.  So this portfolio not only showcases a specific technology skillset, but instead shows how I am able to craft together multiple different disciplines to arrive at the end goal of delivering an awesome project!
+In the "Enhanced Artifacts" section below, you will see three separate features that I added or improved to my starting project.   These together showcase a wide array of technical and engineering skills.   The three main enhancements can be grouped into three categories:   General Engineering/Design/Refactoring, Implementation of a Database system, and the creation of an algorithm implementing business logic.   All of these enhancements build upon each other.  For example, in the General Engineering section, I create a NodeJS and expose several APIs, which then in turn call the database, which is also referenced when loading data for my algorithm.  So this portfolio not only showcases a specific technology skillset, but instead shows how I am able to craft together multiple different disciplines to arrive at the end goal of delivering an awesome project!
 
 
 # Code Review
